@@ -104,7 +104,7 @@ function loadImage(url, cb) {
         try { cb(dataUrl); } catch (e) { }
     };
     xhr.open("GET", url);
-    try { xhr.setRequestHeader("User-Agent", "harbour-meteoradar/0.1.0"); } catch (e) { }
+    try { xhr.setRequestHeader("User-Agent", "harbour-meteoradar/1.0.0"); } catch (e) { }
     xhr.responseType = "arraybuffer";
     xhr.send();
 }
@@ -132,7 +132,7 @@ function fetch(url, key, cb) {
         try { cb(dataUrl); } catch (e) { /* tile was already destroyed */ }
     };
     xhr.open("GET", url);
-    try { xhr.setRequestHeader("User-Agent", "harbour-meteoradar/0.1.0"); } catch (e) { }
+    try { xhr.setRequestHeader("User-Agent", "harbour-meteoradar/1.0.0"); } catch (e) { }
     xhr.responseType = "arraybuffer";
     xhr.send();
 }
