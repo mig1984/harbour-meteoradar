@@ -1,0 +1,13 @@
+# deploy key (never commit)
+deploy_key_meteoradar
+deploy_key_meteoradar.pub
+
+# build output
+build/
+*.rpm
+*.tar.gz
+
+# editor / OS
+*.swp
+*~
+.DS_Store

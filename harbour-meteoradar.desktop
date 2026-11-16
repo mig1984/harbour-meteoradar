@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=harbour-meteoradar
+Exec=sailfish-qml harbour-meteoradar
+Name=Meteoradar
+Name[cs]=Meteoradar
+Comment=Precipitation radar map
+Comment[cs]=Mapa srážek z meteorologického radaru
+X-Nemo-Single-Instance=true
+
+[X-Sailjail]
+OrganizationName=cz.mig
+ApplicationName=harbour-meteoradar
+Permissions=Internet;Location
