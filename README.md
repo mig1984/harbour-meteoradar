@@ -260,3 +260,7 @@ Tag `vX.Y.Z` after testing on a device.
 - Base maps: (c) Esri (ArcGIS), (c) OpenTopoMap (CC-BY-SA), (c) OpenStreetMap
   contributors.
 - Code: MIT (see the spec file).
+
+## Privacy
+
+The app downloads radar and map tiles from the providers listed in the app (CHMI, DWD, FMI, RainViewer, Esri, OpenTopoMap). Your position is read on the device only when you use the "My location" option and is not sent to the author. Tiles are cached locally.

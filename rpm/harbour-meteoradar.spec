@@ -1,8 +1,8 @@
 Name:       harbour-meteoradar
-Version:    1.0.0
+Version:    1.1.0
 Release:    1
 Summary:    Precipitation radar map for Sailfish OS (Meteor-style)
-License:    MIT
+License:    GPLv3
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.gz
 
@@ -52,11 +52,16 @@ done
 
 %files
 %defattr(-,root,root,-)
+%license LICENSE
 %{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 
 %changelog
+* Mon Nov 16 2026 Jan Molič <jan.molic@1984.cz> - 1.1.0-1
+- GPLv3 license
+- Finnish and Simplified Chinese translations
+
 * Mon Nov 16 2026 Jan Molič <jan.molic@1984.cz> - 1.0.0-1
 - First public release: CHMI, DWD, FMI and RainViewer sources, pulley menus,
   tile cache, progressive loading
