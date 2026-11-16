@@ -259,7 +259,7 @@ Tag `vX.Y.Z` after testing on a device.
   Meteorological Institute), RainViewer (free API, subject to RainViewer terms).
 - Base maps: (c) Esri (ArcGIS), (c) OpenTopoMap (CC-BY-SA), (c) OpenStreetMap
   contributors.
-- Code: MIT (see the spec file).
+- Code: GPLv3, see [LICENSE](LICENSE).
 
 ## Privacy
 
