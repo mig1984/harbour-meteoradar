@@ -1,7 +1,6 @@
 import QtQuick 2.2
 import Sailfish.Silica 1.0
 import Nemo.Configuration 1.0
-import Nemo.DBus 2.0
 import "js/radar.js" as R
 import "js/tilecache.js" as TC
 import "pages"
@@ -297,18 +296,6 @@ ApplicationWindow {
         onActiveChanged: {
             if (Qt.application.active) win.refresh();
         }
-    }
-
-    // Quit over D-Bus so the compositor is not disturbed (see README)
-    DBusAdaptor {
-        bus: DBus.SessionBus
-        service: "cz.mig.harbour-meteoradar"
-        path: "/"
-        iface: "cz.mig.harbour_meteoradar"
-        xml: '<interface name="cz.mig.harbour_meteoradar">' +
-             '<method name="quit"/>' +
-             '</interface>'
-        function quit() { Qt.quit(); }
     }
 
     Component.onCompleted: {

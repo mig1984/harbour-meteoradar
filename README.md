@@ -116,7 +116,7 @@ harbour-meteoradar.desktop        Sailjail: Internet; Location
 rpm/harbour-meteoradar.spec       noarch RPM (Requires: sailfishsilica, qtgraphicaleffects, ...)
 icons/gen.py                      launcher icon generator (PIL)
 qml/harbour-meteoradar.qml        ApplicationWindow: settings (dconf), radar state,
-                                  frame loading for all sources, timers, D-Bus quit
+                                  frame loading for all sources, timers
 qml/js/radar.js                   sources (SOURCES), tile URLs, WMS/RainViewer URLs,
                                   time parsing, Mercator helpers, JSON GET
 qml/js/tilecache.js               LocalStorage (SQLite) tile cache + image download

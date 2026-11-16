@@ -11,7 +11,6 @@ Requires:   libsailfishapp-launcher
 Requires:   qt5-qtdeclarative-import-positioning
 Requires:   qt5-qtgraphicaleffects
 Requires:   nemo-qml-plugin-configuration-qt5
-Requires:   nemo-qml-plugin-dbus-qt5
 
 BuildRequires:  qt5-qttools-linguist
 
@@ -59,6 +58,7 @@ done
 
 %changelog
 * Mon Nov 16 2026 Jan Molič <jan.molic@1984.cz> - 1.1.0-1
+- Removed D-Bus quit hook (deploy only) and its nemo-qml-plugin-dbus-qt5 requirement
 - GPLv3 license
 - Finnish and Simplified Chinese translations
 
