@@ -13,6 +13,8 @@ Requires:   qt5-qtgraphicaleffects
 Requires:   nemo-qml-plugin-configuration-qt5
 Requires:   nemo-qml-plugin-dbus-qt5
 
+BuildRequires:  qt5-qttools-linguist
+
 %description
 Meteoradar shows precipitation measured by the Czech Hydrometeorological
 Institute (CHMU) weather radar on a map, with animation of past frames and
@@ -23,7 +25,10 @@ home-screen cover with the latest radar frame.
 %setup -q
 
 %build
-# nothing to build, pure QML
+# pure QML; only compile translations
+for ts in translations/*.ts; do
+    lrelease "$ts" -qm "${ts%.ts}.qm"
+done
 
 %install
 rm -rf %{buildroot}
@@ -32,6 +37,8 @@ install -d %{buildroot}%{_datadir}/%{name}/qml/cover
 install -d %{buildroot}%{_datadir}/%{name}/qml/components
 install -d %{buildroot}%{_datadir}/%{name}/qml/js
 install -m 644 qml/%{name}.qml %{buildroot}%{_datadir}/%{name}/qml/
+install -d %{buildroot}%{_datadir}/%{name}/translations
+install -m 644 translations/*.qm %{buildroot}%{_datadir}/%{name}/translations/
 install -m 644 qml/pages/*.qml %{buildroot}%{_datadir}/%{name}/qml/pages/
 install -m 644 qml/cover/*.qml %{buildroot}%{_datadir}/%{name}/qml/cover/
 install -m 644 qml/components/*.qml %{buildroot}%{_datadir}/%{name}/qml/components/
