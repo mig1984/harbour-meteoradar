@@ -6,7 +6,7 @@ License:    GPLv3
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.gz
 
-Requires:   sailfishsilica-qt5 >= 0.10.9
+Requires:   sailfishsilica-qt5
 Requires:   libsailfishapp-launcher
 Requires:   qt5-qtdeclarative-import-positioning
 Requires:   qt5-qtgraphicaleffects
