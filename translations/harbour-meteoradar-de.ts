@@ -1,0 +1,139 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TS version="2.1" language="de" sourcelanguage="cs">
+<context>
+    <name>CoverPage</name>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="55" />
+        <source>Načítám…</source>
+        <translation>Wird geladen…</translation>
+    </message>
+    <message>
+        <location filename="../qml/cover/CoverPage.qml" line="55" />
+        <source>Meteoradar</source>
+        <translation>Meteoradar</translation>
+    </message>
+</context>
+<context>
+    <name>MainPage</name>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="46" />
+        <location filename="../qml/pages/MainPage.qml" line="61" />
+        <source>Nastavení mapy</source>
+        <translation>Karteneinstellungen</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="50" />
+        <location filename="../qml/pages/MainPage.qml" line="65" />
+        <source>Zdroj radaru</source>
+        <translation>Radarquelle</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="54" />
+        <location filename="../qml/pages/MainPage.qml" line="69" />
+        <source>Obnovit</source>
+        <translation>Aktualisieren</translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="185" />
+        <source>Načítám snímky: %1 / %2</source>
+        <translation>Bilder werden geladen: %1 / %2</translation>
+    </message>
+</context>
+<context>
+    <name>SettingsPanel</name>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="42" />
+        <source>Zdroj radaru</source>
+        <translation>Radarquelle</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="42" />
+        <source>Nastavení mapy</source>
+        <translation>Karteneinstellungen</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="50" />
+        <source>Typ mapy</source>
+        <translation>Kartentyp</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="60" />
+        <source>Základní</source>
+        <translation>Standard</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="66" />
+        <source>Reliéf</source>
+        <translation>Gelände</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="72" />
+        <source>Tmavá</source>
+        <translation>Dunkel</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="80" />
+        <source>Barevnost mapy</source>
+        <translation>Kartenfarben</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="96" />
+        <source>Moje poloha</source>
+        <translation>Mein Standort</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="102" />
+        <source>Vyhladit radar</source>
+        <translation>Radar glätten</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="110" />
+        <source>Zdroj dat</source>
+        <translation>Datenquelle</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="131" />
+        <source>Blesky (ČHMÚ)</source>
+        <translation>Blitze (ČHMÚ)</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="141" />
+        <source>Délka historie</source>
+        <translation>Länge des Verlaufs</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="169" />
+        <source>Data radaru: ČHMÚ.</source>
+        <translation>Radardaten: ČHMÚ.</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="170" />
+        <source>Data radaru: %1. Načítání trvá déle, protože se stahuje jeden obrázek na každých 5 minut historie.</source>
+        <translation>Radardaten: %1. Das Laden dauert länger, weil für jeweils 5 Minuten Verlauf ein Bild heruntergeladen wird.</translation>
+    </message>
+    <message>
+        <location filename="../qml/components/SettingsPanel.qml" line="171" />
+        <source>Mapa: © Esri, © OpenTopoMap.</source>
+        <translation>Karte: © Esri, © OpenTopoMap.</translation>
+    </message>
+</context>
+<context>
+    <name>harbour-meteoradar</name>
+    <message>
+        <location filename="../qml/harbour-meteoradar.qml" line="138" />
+        <location filename="../qml/harbour-meteoradar.qml" line="210" />
+        <source>Žádná data radaru</source>
+        <translation>Keine Radardaten</translation>
+    </message>
+    <message>
+        <location filename="../qml/harbour-meteoradar.qml" line="162" />
+        <source>Radar se nepodařilo načíst (%1)</source>
+        <translation>Radar konnte nicht geladen werden (%1)</translation>
+    </message>
+    <message>
+        <location filename="../qml/harbour-meteoradar.qml" line="198" />
+        <source>RainViewer se nepodařilo načíst (%1)</source>
+        <translation>RainViewer konnte nicht geladen werden (%1)</translation>
+    </message>
+</context>
+</TS>

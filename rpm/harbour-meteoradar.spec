@@ -1,5 +1,5 @@
 Name:       harbour-meteoradar
-Version:    1.1.0
+Version:    1.1.1
 Release:    1
 Summary:    Precipitation radar map for Sailfish OS (Meteor-style)
 License:    GPLv3

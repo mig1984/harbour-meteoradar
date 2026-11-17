@@ -45,6 +45,9 @@ Version: 1.0.0 (see `rpm/harbour-meteoradar.spec`). The UI is in Czech.
   shown on the cover (see section 6).
 - **Offline start**: the last observed CHMI frame is stored in dconf, so after a
   start without network at least that frame is shown.
+- **Localisation**: Czech (source language), English, Finnish, German, Spanish,
+  French, Italian, Dutch, Polish, Russian, Swedish and Chinese (simplified);
+  translations live in `translations/` and are compiled at build time.
 
 ---
 
