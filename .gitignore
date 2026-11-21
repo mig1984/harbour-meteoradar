@@ -15,3 +15,6 @@ build/
 # build output
 *.qm
 documentation.list
+
+# local helper scripts (may contain secrets)
+.scripts/

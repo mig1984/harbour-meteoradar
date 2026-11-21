@@ -5,7 +5,7 @@ It shows weather radar frames on a map with animation (past frames, nowcast wher
 the source provides it) and an optional lightning layer. The map is a custom
 slippy map written in QML, no WebView.
 
-Version: 1.0.0 (see `rpm/harbour-meteoradar.spec`). The UI is in Czech.
+Version: 1.1.2 (see `rpm/harbour-meteoradar.spec`). The UI is in Czech.
 
 ## Screenshots
 

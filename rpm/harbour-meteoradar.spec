@@ -1,5 +1,5 @@
 Name:       harbour-meteoradar
-Version:    1.1.1
+Version:    1.1.2
 Release:    1
 Summary:    Precipitation radar map for Sailfish OS (Meteor-style)
 License:    GPLv3
@@ -19,6 +19,27 @@ Meteoradar shows precipitation measured by the Czech Hydrometeorological
 Institute (CHMU) weather radar on a map, with animation of past frames and
 a short nowcast, optional lightning layer, selectable base map and a
 home-screen cover with the latest radar frame.
+
+# This description section includes metadata for SailfishOS:Chum, see
+# https://github.com/sailfishos-chum/main/blob/main/Metadata.md
+%if 0%{?_chum}
+Title: Meteoradar
+Type: desktop-application
+DeveloperName: Jan Molič
+Categories:
+ - Science
+ - Geoscience
+Custom:
+  Repo: https://github.com/mig1984/harbour-meteoradar
+PackageIcon: https://github.com/mig1984/harbour-meteoradar/raw/main/icons/172x172/harbour-meteoradar.png
+Screenshots:
+ - https://github.com/mig1984/harbour-meteoradar/raw/main/docs/screenshot-dwd-source.png
+ - https://github.com/mig1984/harbour-meteoradar/raw/main/docs/screenshot-fmi-finland.png
+ - https://github.com/mig1984/harbour-meteoradar/raw/main/docs/screenshot-chmi-map-settings.png
+Links:
+  Homepage: https://github.com/mig1984/harbour-meteoradar
+  Bugtracker: https://github.com/mig1984/harbour-meteoradar/issues
+%endif
 
 %prep
 %setup -q
@@ -57,6 +78,9 @@ done
 %{_datadir}/icons/hicolor/*/apps/%{name}.png
 
 %changelog
+* Sat Nov 21 2026 Jan Molič <jan.molic@1984.cz> - 1.1.2-1
+- Chum metadata (AppStream-style) in the spec description for the SailfishOS:Chum GUI
+
 * Mon Nov 16 2026 Jan Molič <jan.molic@1984.cz> - 1.1.0-1
 - Removed D-Bus quit hook (deploy only) and its nemo-qml-plugin-dbus-qt5 requirement
 - GPLv3 license
